@@ -6,8 +6,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+
+//@NoArgsConstructor
 @AllArgsConstructor
+@Data
 @NoArgsConstructor
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class UserRequest {
@@ -17,3 +19,6 @@ public class UserRequest {
 //    private boolean isKorean;
     private Boolean isKorean;
 }
+
+
+//@Data
